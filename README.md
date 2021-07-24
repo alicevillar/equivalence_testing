@@ -16,14 +16,9 @@ You should carry out further investigations on the code and experiment with it.
 
 ## Solution
 
-The recipe includes a test to partition the set of integers [-3,5) into equivalence classes based on the relation lambda x, y: (x - y) % 4 == 0.
+The recipe includes a test to partition the set of integers [-3,5] into equivalence classes based on the relation lambda x, y: (x - y) % 4 == 0. An equivalence relation is a relationship on a set, generally denoted by “∼”, that is reflexive, symmetric, and transitive for everything in the set. 
 
-An equivalence relation is a relationship on a set, generally denoted by “∼”, that is reflexive, symmetric, and transitive for everything in the set. 
-
-Equivalence relations are relations that have the following properties: 
-* They are reflexive: A is related to A. 
-* They are symmetric: if A is related to B, then B is related to A. 
-* They are transitive: if A is related to B and B is related to C then A is related to C.
+Equivalence relations are relations that have the following properties: They are reflexive: A is related to A; They are symmetric: if A is related to B, then B is related to A; They are transitive: if A is related to B and B is related to C then A is related to C.
 
 * Here I decided to run the code again test_equivalence_partition() but now with the range(-1, 4). This had the following output:
 
