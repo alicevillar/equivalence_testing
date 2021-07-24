@@ -3,7 +3,7 @@
 This repository contains Pylint exercises from CODIO. It was part of Module 3 (“Secure Software Development”) Unit 5 (Equivalence Testing in Python) of my MSc in Computer Science at the University of Essex, UK.
 
 
-## Descrition
+## Description
 
 Run equivalence.py in the Codio workspace - Testing with Python - which is an implementation of equivalence partitioning. This test partitions integers [-3,5] into equivalence classes based on lambda x, y: (x-y)%4 == 0.
 In the output, you should be able to see how a set of objects to be partitioned are considered, and a function evaluates if the two objects are equivalent before printing the result.
@@ -25,5 +25,21 @@ Equivalence relations are relations that have the following properties:
 * They are symmetric: if A is related to B, then B is related to A. 
 * They are transitive: if A is related to B and B is related to C then A is related to C.
 
+* Here I decided to run the code again test_equivalence_partition() but now with the range(-1, 4). This had the following output:
+
+```
+{3, -1}
+{0}
+{1}
+{2}
+-1 : {3, -1}
+0 : {0}
+1 : {1}
+2 : {2}
+3 : {3, -1}
+```
 
 ## Resources
+
+[stackoverflow)(https://stackoverflow.com/questions/38924421/is-there-a-standard-way-to-partition-an-interable-into-equivalence-classes-given/38924686#38924686)
+
