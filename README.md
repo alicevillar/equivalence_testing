@@ -20,7 +20,7 @@ The recipe includes a test to partition the set of integers [-3,5] into equivale
 
 Equivalence relations are relations that have the following properties: They are reflexive: A is related to A; They are symmetric: if A is related to B, then B is related to A; They are transitive: if A is related to B and B is related to C then A is related to C.
 
-* Here I decided to run the code again test_equivalence_partition() but now with the range(-1, 4). This had the following output:
+* Here I decided to run the code again test_equivalence_partition() but now with the range [-1, 4]. This had the following output:
 
 ```
 {3, -1}
@@ -36,5 +36,5 @@ Equivalence relations are relations that have the following properties: They are
 
 ## Resources
 
-[stackoverflow)(https://stackoverflow.com/questions/38924421/is-there-a-standard-way-to-partition-an-interable-into-equivalence-classes-given/38924686#38924686)
+[stackoverflow](https://stackoverflow.com/questions/38924421/is-there-a-standard-way-to-partition-an-interable-into-equivalence-classes-given/38924686#38924686)
 
